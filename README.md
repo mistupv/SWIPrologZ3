@@ -1,17 +1,17 @@
 # SWIPrologZ3
 
-### A simple Prolog API for the Z3 constraint solver
+### A simple SWI Prolog API for Microsoft's SMT solver Z3
 
 
-First, you should install SWI Prolog and the Z3 SMT constraint solver.
+First, you should install SWI Prolog and the SMT solver Z3.
 
-Once you clone the repository, you can compile the C source file using:
+Once you download the files, you can compile the C source file using the SWI Prolog utility program ````swipl-ld```` as follows:
 
 ````$ swipl-ld -c swiplz3.c````
 
 ````$ swipl-ld -shared -o swiplz3 swiplz3.o -lz3````
 
-In order to use the Z3 functions, your Prolog code should load the file ```swiplz3.pl```. For this purpose, you can add
+Now, in order to use the Z3 functions, your Prolog code should load the file ```swiplz3.pl```. For this purpose, you can add
 
 ````:- use_module(swiplz3).````
 
