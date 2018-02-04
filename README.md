@@ -20,3 +20,5 @@ to your Prolog file.
 Check the simple examples ```ex1.pl``` and ```ex2.pl```.
 
 This is ongoing work. Currently, it only covers constraints over integers and a few basic Z3 functions.
+
+Please send me any comment to <gvidal@dsic.upv.es>
