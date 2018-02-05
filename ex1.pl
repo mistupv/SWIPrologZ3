@@ -42,3 +42,4 @@ main :-
     z3_del_solver(N),
     z3_del_context(N).
 
+
