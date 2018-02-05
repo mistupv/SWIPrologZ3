@@ -5,7 +5,11 @@
 
 First, you should install SWI Prolog and the SMT solver Z3. It has been tested with SWI Prolog version 7.6.3 and Z3 version 4.6.1.
 
-Once you download the files, you can compile the C source file using the SWI Prolog utility program ````swipl-ld```` as follows:
+Then, you can download or clone the repository, e.g., 
+
+````$ git clone https://github.com/mistupv/SWIPrologZ3.git````
+
+and compile the C source file using the SWI Prolog utility program ````swipl-ld````, as follows:
 
 ````$ swipl-ld -c swiplz3.c````
 
